@@ -1,0 +1,24 @@
+{
+  "name": "bit-playground",
+  "version": "1.0.0",
+  "description": "Bitcoin js library playground",
+  "author": "Stephen Wu",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^5.1.6",
+    "chai": "^4.2.0",
+    "consola": "^2.10.1",
+    "iview": "^3.1.5",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
